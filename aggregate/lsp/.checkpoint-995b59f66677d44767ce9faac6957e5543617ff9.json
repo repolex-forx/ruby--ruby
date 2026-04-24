@@ -1,0 +1,30 @@
+{
+  "commit_sha": "995b59f66677d44767ce9faac6957e5543617ff9",
+  "completed_files": [
+    "lib/bundler/cli/update.rb",
+    "lib/rubygems/security/policy.rb",
+    "spec/ruby/core/numeric/uminus_spec.rb",
+    "spec/ruby/core/range/bsearch_spec.rb"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/ruby/ruby/lsp/995b59f66677d44767ce9faac6957e5543617ff9",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/995b59f66677d44767ce9faac6957e5543617ff9.nq.gz",
+    "call_sites": 692947,
+    "import_statements": 3382,
+    "call_targets_resolved": 195,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 603,
+    "extends_clauses": 133,
+    "implements_clauses": 6,
+    "import_modules_denormalized": 3592,
+    "import_symbols_denormalized": 37,
+    "extends_class_denormalized": 14,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14471
+}

@@ -1,0 +1,19 @@
+[2026-04-24T04:06:06Z] === ENRICH ITERATION 1 START | repo=ruby/ruby sha=995b59f6 ===
+[2026-04-24T04:06:06Z] [iter=1] PHASE START: enrich repo=ruby/ruby sha=995b59f6 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/995b59f6-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/995b59f66677d44767ce9faac6957e5543617ff9.nq.gz
+[2026-04-24T04:06:06Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-24T04:18:33Z] [iter=1] AST store loaded triples=52376980 load_secs=725 mem_mb=1105 MB
+[2026-04-24T04:18:33Z] [iter=1] Step 2: Finding LSP targets mem_mb=1105 MB
+[2026-04-24T04:21:12Z] [iter=1] LSP targets found call_sites=692947 imports=3382 extends=133 implements=6 secs=159
+[2026-04-24T04:23:10Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1105 MB
+[2026-04-24T04:29:05Z] [iter=1] Position index built positions=3442522 nodes_with_types=4193253 secs=355 mem_mb=6623 MB
+[2026-04-24T04:29:05Z] [iter=1] Step 3: Starting LSP resolution mem_mb=6623 MB already_completed_types=[] already_completed_files=0
+[2026-04-24T04:29:05Z] [iter=1] Resolving target type target_type=call_site count=692947
+[2026-04-24T04:29:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.0 files_done=0 resolved=0 errors=0 current=spec/ruby/core/range/bsearch_spec.rb
+[2026-04-24T05:10:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.4 files_done=1 resolved=124 errors=112 current=spec/ruby/core/numeric/uminus_spec.rb
+[2026-04-24T05:13:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.6 files_done=2 resolved=124 errors=121 current=lib/rubygems/security/policy.rb
+[2026-04-24T05:37:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=91.7 files_done=3 resolved=155 errors=188 current=lib/bundler/cli/update.rb
+[2026-04-24T06:04:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=118.7 files_done=4 resolved=163 errors=263 current=bootstraptest/runner.rb
+[2026-04-24T08:07:18Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=241.2 files_completed=4 new_files_this_iter=4 mem_mb=6625 MB
+[2026-04-24T08:07:18Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/995b59f66677d44767ce9faac6957e5543617ff9.nq.gz triples=12562
+[2026-04-24T08:07:21Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-24T08:07:21Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14472 elapsed_min=241.2 files_completed=4
