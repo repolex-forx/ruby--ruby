@@ -1,0 +1,16 @@
+[2026-09-05T03:30:14Z] === ENRICH ITERATION 8 START | repo=ruby/ruby sha=995b59f6 ===
+[2026-09-05T03:30:14Z] [iter=8] PHASE START: enrich repo=ruby/ruby sha=995b59f6 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/995b59f6-enrich-iter-008.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/995b59f66677d44767ce9faac6957e5543617ff9.nq.gz
+[2026-09-05T03:30:14Z] [iter=8] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-09-05T03:42:35Z] [iter=8] AST store loaded triples=52376980 load_secs=719 mem_mb=1099 MB
+[2026-09-05T03:42:35Z] [iter=8] Step 2: Finding LSP targets mem_mb=1099 MB
+[2026-09-05T03:45:19Z] [iter=8] LSP targets found call_sites=692947 imports=3382 extends=133 implements=6 secs=163
+[2026-09-05T03:45:19Z] [iter=8] Loaded checkpoint partial graph triples=20750
+[2026-09-05T03:47:21Z] [iter=8] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1099 MB
+[2026-09-05T03:53:21Z] [iter=8] Position index built positions=3442522 nodes_with_types=4193253 secs=359 mem_mb=6556 MB
+[2026-09-05T03:53:21Z] [iter=8] Step 3: Starting LSP resolution mem_mb=6556 MB already_completed_types=[] already_completed_files=8
+[2026-09-05T03:53:21Z] [iter=8] Resolving target type target_type=call_site count=692947
+[2026-09-05T03:53:30Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=23.3 files_done=0 resolved=0 errors=692947 current=regparse.c
+[2026-09-05T07:31:45Z] [iter=8] CHECKPOINT TRIGGERED elapsed_min=241.5 files_completed=8 new_files_this_iter=0 mem_mb=6638 MB
+[2026-09-05T07:31:45Z] [iter=8] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/995b59f66677d44767ce9faac6957e5543617ff9.nq.gz triples=23338
+[2026-09-05T07:31:46Z] [iter=8] Checkpoint written, exiting with code 7
+[2026-09-05T07:31:46Z] [iter=8] PHASE END: enrich (checkpointed) elapsed_s=14491 elapsed_min=241.5 files_completed=8
