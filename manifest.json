@@ -23359,6 +23359,22 @@
         "blob/d64dbacfdb2d153bbe5be9c987435faa8c046374.nq.gz",
         "blob/32d38bc7a23fb57f0155ab4c5eb95e5586aa41cf.nq.gz",
         "blob/caa4b85a1bb3d52e845252b932f826c196291e63.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/995b59f66677d44767ce9faac6957e5543617ff9/chunk-001.nq.gz",
+        "aggregate/ast/995b59f66677d44767ce9faac6957e5543617ff9/chunk-002.nq.gz",
+        "aggregate/ast/995b59f66677d44767ce9faac6957e5543617ff9/chunk-003.nq.gz",
+        "aggregate/ast/995b59f66677d44767ce9faac6957e5543617ff9/chunk-004.nq.gz",
+        "aggregate/ast/995b59f66677d44767ce9faac6957e5543617ff9/chunk-005.nq.gz",
+        "aggregate/ast/995b59f66677d44767ce9faac6957e5543617ff9/chunk-006.nq.gz",
+        "aggregate/ast/995b59f66677d44767ce9faac6957e5543617ff9/chunk-007.nq.gz",
+        "aggregate/ast/995b59f66677d44767ce9faac6957e5543617ff9/chunk-008.nq.gz",
+        "aggregate/ast/995b59f66677d44767ce9faac6957e5543617ff9/chunk-009.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/995b59f66677d44767ce9faac6957e5543617ff9.nq.gz",
+      "repolex": [
+        "aggregate/repolex/995b59f66677d44767ce9faac6957e5543617ff9/chunk-001.nq.gz",
+        "aggregate/repolex/995b59f66677d44767ce9faac6957e5543617ff9/chunk-002.nq.gz"
       ]
     }
   ],

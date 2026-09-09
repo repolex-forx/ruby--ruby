@@ -1,8 +1,8 @@
 {
-  "next_action": "enrich",
-  "phase_completed": "enrich_checkpoint",
+  "next_action": "done",
+  "phase_completed": "combine",
   "commit_sha": "995b59f66677d44767ce9faac6957e5543617ff9",
-  "ts": "2026-09-09T11:01:34Z",
-  "files_completed": 8,
-  "call_targets_resolved": 349
+  "ts": "2026-09-09T11:16:19Z",
+  "total_triples": 12576123,
+  "manifest": "/home/runner/work/forx/forx/storage/manifest.json"
 }
